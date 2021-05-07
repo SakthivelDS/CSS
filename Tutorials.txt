@@ -1,0 +1,15 @@
+https://clearlydecoded.com/
+
+https://github.com/jhu-ep-coursera/fullstack-course4
+
+For FAQ:
+https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/FAQ.md
+
+To check if the element in html usable in all browsers:
+https://caniuse.com
+
+For the customer questions:
+web development client questionnaire
+
+
+balsamiq.com

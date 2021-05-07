@@ -1,0 +1,6 @@
+Count the number of such selectors as specified in the .jpg
+and provide marks .
+The one with more marks wins.
+
+If you want to override all the selectors and wants to display 
+a particular selector use "!important" inside the selector elements.

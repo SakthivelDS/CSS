@@ -1,0 +1,32 @@
+Media query is used to define the elements within it
+when the condition is True.
+
+Commonly used Media queries:
+
+1.@media (max-width: <n>px) {
+p {..}
+div {..} 
+}
+
+2.@media (min-width: <n>px) {
+p {..}
+div {..} 
+}
+
+3.@media (orientation: potrait) {
+p {..}
+div {..} 
+}
+
+4.@media screen {
+p {..}
+div {..} 
+}
+
+5.@media print {
+p {..}
+div {..} 
+}
+
+You can add more than one media query using logical opeators:
+"and" and "," for "or".  

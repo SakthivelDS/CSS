@@ -1,0 +1,30 @@
+padding - like the border but it is between the border and the content.
+We can given values for each side:
+example:
+padding: 10px 10px 10px 10px;
+margin : 10px 10px 10px 10px;
+1-top
+2-right
+3-bottom
+4-left
+Shortcut for this is :
+padding: 10px
+it denotes 10px on all the sides.
+
+
+Box-sizing:
+It is used to set the full box size as content-box or border box.
+to set the box size according to the predefined width.
+Example:
+body {
+width: 10px;
+box-sizing: border-box;
+}
+it defines the whole box size as 10px if we define border and padding also.
+
+
+If we want to constrict the big content in a small box,
+we can set less height but the content in the box will flow out.
+so we can use "overflow: hidden for hiding, auto for scroll bar, scroll for both side scrolling."
+
+   

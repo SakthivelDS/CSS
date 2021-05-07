@@ -1,0 +1,572 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #ececec;
+    
+}
+.container{
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    left:-300px;
+    width:230px;
+    height: 450px;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    
+    animation: anim 20s linear infinite;
+}
+.power1{
+    transform-style: preserve-3d;
+    position: absolute;
+    width:10px;
+    height: 55px;
+    background: rgba(0,0,255,0.2);
+    transform: rotateY(90deg) translateZ(45px) translateY(-5px);
+    border-radius: 20px;
+    
+    box-shadow: 1px -1px 5px rgba(0,0,0,0.8),
+    -1px 1px 5px rgba(255,255,255,0.6);
+}
+.power2{
+    transform-style: preserve-3d;
+    position: absolute;
+    width:10px;
+    height: 55px;
+    background: rgba(0,0,255,0.2);
+    transform: rotateY(90deg) translateZ(44px) translateY(-5px);
+    border-radius: 20px;
+    
+    box-shadow: 1px -1px 5px rgba(0,0,0,0.8),
+    -1px 1px 5px rgba(255,255,255,0.6);
+}
+.power3{
+    transform-style: preserve-3d;
+    position: absolute;
+    width:10px;
+    height: 55px;
+    background: rgba(0,0,255,0.2);
+    transform: rotateY(90deg) translateZ(43px) translateY(-5px);
+    border-radius: 20px;
+    
+    box-shadow: 1px -1px 5px rgba(0,0,0,0.8),
+    -1px 1px 5px rgba(255,255,255,0.6);
+}
+.volume1{
+    transform-style: preserve-3d;
+    position: absolute;
+    width:10px;
+    height: 80px;
+    background: rgba(0,0,255,0.2);
+    transform: rotateY(90deg) translateZ(45px) translateY(-85px);
+    border-radius: 20px;
+    box-shadow: 1px -1px 5px rgba(0,0,0,0.8),
+    -1px 1px 5px rgba(255,255,255,0.6);
+}
+.volume2{
+    transform-style: preserve-3d;
+    position: absolute;
+    width:10px;
+    height: 80px;
+    background: rgba(0,0,255,0.2);
+    transform: rotateY(90deg) translateZ(44px) translateY(-85px);
+    border-radius: 20px;
+    box-shadow: 1px -1px 5px rgba(0,0,0,0.8),
+    -1px 1px 5px rgba(255,255,255,0.6);
+}
+.volume3{
+    transform-style: preserve-3d;
+    position: absolute;
+    width:10px;
+    height: 80px;
+    background: rgba(0,0,255,0.2);
+    transform: rotateY(90deg) translateZ(43px) translateY(-85px);
+    border-radius: 20px;
+    box-shadow: 1px -1px 5px rgba(0,0,0,0.8),
+    -1px 1px 5px rgba(255,255,255,0.6);
+}
+
+.phone1{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: black;
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(10px);
+   
+   
+}
+.screen{
+    width:95%;
+    height: 97%;
+    background: linear-gradient(to left, rgba(255,255,255,0.2),rgba(255,255,255,0.1));
+    
+    border-radius: 33px;
+}
+.fcam{
+    width: 30%;
+    height: 15px;
+    
+    position: relative;
+    right: -150px;
+    top:10px;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
+.cam1{
+    position: absolute;
+    left:11px;
+    width:11px;
+    height: 11px;
+    border-radius: 50%;
+    background: grey;
+    box-shadow: 0 0 3px black inset;
+}
+.cam2{
+    position: absolute;
+    left:30px;
+    width:11px;
+    height: 11px;
+    border-radius: 50%;
+    background: grey;
+    box-shadow: 0 0 3px black inset;
+
+}
+.phone2{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(-10px) ;
+   
+   
+}
+.phone2 .logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width:50px;
+    height: 10px;
+    position:absolute;
+    bottom:-230px;
+    left:32px;
+    transform: rotateY(180deg);
+    font-weight: bold;
+    color: silver;
+    font-family: 'Roboto', sans-serif;
+
+}
+.phone2 .circle{
+    position: absolute;
+    width: 118px;
+    height: 118px;
+    top:20px;
+    border-radius: 50%;
+    background: linear-gradient(to left, rgba(0,0,139,.5), rgba(0,0,139,0.3));
+}
+.phone2 .outcamera{
+    position: absolute;
+    width: 27px;
+    height: 106px;
+    right:45px;
+    top:5px;
+    background: black;
+    border-radius: 30px;
+    box-shadow: -3px 0px 5px rgba(255,255,255,0.5),
+    5px 0 6px rgba(0,0,0,0.62);
+}
+.phone2 .camera{
+    position: absolute;
+    list-style: none;
+}
+li:nth-child(1){
+    position: absolute;
+    left:3px;
+    top:5px;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    border:1px solid grey;
+    background: grey;
+    box-shadow: 0 0 14px black inset;
+}
+li:nth-child(2){
+    position: absolute;
+    left:4.5px;
+    top:30px;
+    width:17px;
+    height: 17px;
+    border-radius: 50%;
+    border:1px solid grey;
+    background: grey;
+    box-shadow: 0 0 14px black inset;
+}
+li:nth-child(3){
+    position: absolute;
+    left:4.5px;
+    top:55px;
+    width:17px;
+    height: 17px;
+    border-radius: 50%;
+    border:1px solid grey;
+    background: grey;
+    box-shadow: 0 0 14px black inset;
+}
+li:nth-child(4){
+    position: absolute;
+    left:3px;
+    top:80px;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    border:1px solid grey;
+    background: grey;
+    box-shadow: 0 0 14px black inset;
+}
+@keyframes anim {
+    0%{
+        transform: rotateY(0deg);
+        
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+.flash{
+    position: absolute;
+    width:20px;
+    height: 8px;
+    border-radius: 20px;
+    background: rgba(252, 227, 145, 0.8);
+    top:125px;
+    left:48px;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+.phone3{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(-9px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone4{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(-8px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone5{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(-7px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone6{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(-6px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone7{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(-5px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+   -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone8{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(-4px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone9{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(-3px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone10{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(-2px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone11{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(-1px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone12{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(0px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone13{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(1px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone14{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(2px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone15{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(3px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone16{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(4px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone17{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(5px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone18{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(6px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone19{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(7px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone20{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(8px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}
+.phone21{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:50px;
+    left:50px;
+    width:230px;
+    height: 450px;
+    background: linear-gradient(to bottom , rgba(0,0,255,1), rgba(128,0,128,1));
+    border-radius: 40px;
+    transform-style: preserve-3d;
+   transform: translateZ(9px) ;
+   box-shadow: 5px 3px 20px rgba(255,255,255,0.6) inset,
+    -10px -3px 10px rgba(0,0,0,0.5) inset;
+}

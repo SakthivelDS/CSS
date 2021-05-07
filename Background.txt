@@ -1,0 +1,16 @@
+To set background image:
+background-image: url("..")
+it provides the image repeatedly in both the directions.
+
+To set the image only in x or y direction or n repetition:
+background-repeat: (no-repeat or repeat-x or repeat-y)
+
+To set background-position:
+background-position: <horizontal position> <vertical pos>;
+example:
+background-position: top  right
+
+***
+To set all the top things together:
+
+background: url("..") <background-repeat value> <background-position values> <backgound-color value>;

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    position: absolute;
+    background: chartreuse;
+    width: 90%;
+    height: 90%;
+    top:50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+#textarea{
+    position: relative;
+    width: 90%;
+    height: 100px;
+    margin-left: 60px;
+    resize: none;
+    padding-top: 20px;
+    font-size: 4em;
+    text-align: right;
+    overflow: hidden;
+}
+ul{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.row1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 50px;
+    background: red;
+    margin-right: 20px;
+    border-radius: 10px;
+    
+}
+.row2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 50px;
+    background: red;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.row3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 50px;
+    background: red;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.row4{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 50px;
+    background: red;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.row5{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 50px;
+    background: red;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+sup {
+    position: relative;
+    bottom: 1ex; 
+    font-size: 80%;
+  }
+.btn28{
+    
+    font-size: 2em;
+}
+.btn33{
+    font-weight: bold;
+}

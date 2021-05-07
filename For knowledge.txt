@@ -1,0 +1,27 @@
+To insert copyright symbol:
+&copy;
+
+To  escape characters:
+1. for "<" - "&lt;" 
+2. for ">" - "&gt;" 
+3. for "&" - "&amp;"
+
+To wrap texts in a same line (not allowing words to split to next line):
+&nbsp; - between the spaces of the words.
+(nbsp- not breaking space)
+
+Links:
+<a href="<link address>" target="<attribute.ex: _blank for new tab>">Link name</a>
+
+To refer a reference:
+1. use id="<name without hash symbol>" after referencing in href = "<#name>"
+2. use <a name="<name without hash symbol> after referencing in href = "<#name>"
+
+For comments:
+<!-- "comments" -->
+
+To  apply a selector elemem=nts for everything in the html:
+* {
+box-sizing: border-box;
+}
+it is applied to everything in the HTML.

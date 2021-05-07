@@ -1,0 +1,11 @@
+syntax:
+selector:pseudo-class{..}
+
+examples for Pseudo-class selector:
+
+:link - to define that's a link
+:visited - to define the styles when it was visited
+:hover - to define style when we hovere onto that selector elements.
+:active - to define the style when the user click on it and not yet released.
+:nth-child(<value>) - to define the nth child of the selector
+the value starts from 1 and it may be "odd" or "even".

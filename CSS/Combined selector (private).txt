@@ -1,0 +1,38 @@
+To create a private class selector 
+so that the only selector tag can use 
+also when other tags are defined with same class name. 
+example: 
+CSS:
+ p.big {..} 
+
+<p class="big">..</p>/*Works Here*/
+ 
+<div class="big">..</div>/*Didn't works */
+
+2. Child selector:
+The direct child will get the style
+Example:
+CSS:
+section > p {..}
+
+1.<section>
+<p>...</p>
+</section>/* Works here*/
+2.<article>
+<p>...</p>
+</article> /*didn't works */
+3.<section>
+<div>
+<p>...</P>
+</div>
+</section> /*Didn't works as p is not a direct child */
+
+3.Descendant selector:
+The child of any form (child, grandchild, etc..) gets the style.
+
+Syntax like example:
+
+article p {...}
+Here the p element whether it is direct or grand child of article 
+gets the style not like child selector.
+ 

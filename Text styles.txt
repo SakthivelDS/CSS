@@ -1,0 +1,17 @@
+1.font-family: the name of the family (you can provide more names seperated by "," to give option for user's pc)
+note: use sans-serif as it is the best one.Must try!
+
+2.font-style: italic,norml,etc..
+
+3.font-weight: bold or any value
+
+4. color: in hexadecimal value ("#RRGGBB")
+"f" in the value denotes full(maximum)
+
+5.font-size: in px or in percent or use <n>em ex: 2em denotes 2 times the size.
+
+
+6.text-transform: capitalize, uppercase, lowercase,etc..
+
+7. text-align: center,left,right,etc..
+

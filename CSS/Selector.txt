@@ -1,0 +1,12 @@
+Declaring class in css: 
+"."<name of class> { ... } 
+calling the class: 
+<p class= "<name of the class>" ... </p> 
+<div class="<name of the class>">...</div>
+
+Declaring id selector in CSS;
+
+#<name of the selector. {...}
+ calling:
+
+ <div id="<name of the selector without #>...</div>

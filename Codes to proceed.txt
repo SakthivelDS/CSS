@@ -1,0 +1,8 @@
+GitHub:
+1. git status-for checking status 
+2. git add . or name in (git status)- to save the content. 
+3. git commit -m "<message>"-to commit the message. 
+4. git push -to publish our changes in github 
+
+Browser- Sync: 
+1. Go to the site page in CMD. 2. Enter: browser-sync start --server --directory --files "*" note: The changes made in code will automatically and immediately edited in the server page. ("*" is for auto-reload)

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="box1">
+            <div class="effect1">
+            <div class="face1 side1"></div>
+            <div class="face1 side2">
+                <div class="icon"><i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="face1 side3" id="white1"></div>
+            <div class="face1 side4"></div>
+            <div class="face1 side5" id="orange1"></div>
+            <div class="face1 side6"></div></div>
+        </div>
+        <div class="container2">
+        <div class="box2">
+            <div class="face2 side1"></div>
+            <div class="face2 side2">
+                <div class="icon"><i class="fa fa-facebook-official" aria-hidden="true"></i></div>
+            </div>
+            <div class="face2 side3" id="white2"></div>
+            <div class="face2 side4"></div>
+            <div class="face2 side5" id="orange2"></div>
+            <div class="face2 side6"></div>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="box3">
+            <div class="face3 side1"></div>
+            <div class="face3 side2">
+                <div class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+            </div>
+            <div class="face3 side3" id="white3"></div>
+            <div class="face3 side4"></div>
+            <div class="face3 side5" id="orange3"></div>
+            <div class="face3 side6"></div>
+        </div>
+        <div class="container4">
+        <div class="box4">
+            <div class="face4 side1"></div>
+            <div class="face4 side2">
+                <div class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+            </div>
+            <div class="face4 side3" id="white4"></div>
+            <div class="face4 side4"></div>
+            <div class="face4 side5" id="orange4"></div>
+            <div class="face4 side6"></div>
+        </div>
+
+    </div>
+</div>
+        <div class="container5">
+        <div class="box5">
+            <div class="face5 side1"></div>
+            <div class="face5 side2">
+                <div class="icon"><i class="fa fa-quora" aria-hidden="true"></i></div>
+            </div>
+            <div class="face5 side3" id="white5"></div>
+            <div class="face5 side4"></div>
+            <div class="face5 side5" id="orange5"></div>
+            <div class="face5 side6"></div>
+        </div>
+    </div>
+    </div>
+    <script>
+        const box1 = document.querySelector(".box1");
+        const box2 = document.querySelector(".box2");
+        const box3 = document.querySelector(".box3");
+        const box4 = document.querySelector(".box4");
+        const box5 = document.querySelector(".box5");
+        const white5  =document.querySelector("#white5");
+        const orange5 = document.querySelector("#orange5");
+        const white4 = document.querySelector("#white4");
+        const white3 = document.querySelector("#white3");
+        const white2 = document.querySelector("#white2");
+        const white1 = document.querySelector("#white1");
+        const orange1 = document.querySelector("#orange1");
+        const orange2 = document.querySelector("#orange2");
+        const orange3 = document.querySelector("#orange3");
+        const orange4 = document.querySelector("#orange4");
+
+        //Box1
+        box1.addEventListener("mouseleave",e=>{
+            box1.style.transition = "1s";
+            white1.style.width = "15px";
+            orange1.style.height = "15px";
+            white1.style.transform = "rotateY(90deg) translateZ(-10px) translateY(2px) translateX(-15px)";
+            orange1.style.transform = "rotateX(90deg) translateZ(-54px) translateY(14px) translateX(-2px)";
+            white1.style.background = "#292929";
+            orange1.style.background = "#292929";
+            document.querySelector('.box1 .side2').style.background = "black";
+        });
+        box1.addEventListener("mouseenter",e=>{
+            white1.style.transition = "1s";
+            orange1.style.transition = "1s";
+            white1.style.background = "#e35f00";
+            orange1.style.background = "#e35f00";
+            white1.style.width = "30px";
+            orange1.style.height = "30px";
+            white1.style.transform = "rotateY(90deg) translateZ(-15px) translateY(2px) translateX(-7px)";
+            orange1.style.transform = "rotateX(90deg) translateZ(-46px) translateY(6px)";
+            document.querySelector('.box1 .side2').style.background = "orange";
+            document.querySelector('.box1 .side2').style.transition = "1s";
+        });
+
+
+        //Box2
+        box2.addEventListener("mouseleave",e=>{
+            box2.style.transition = "1s";
+            white2.style.width = "15px";
+            orange2.style.height = "15px";
+            white2.style.transform= "rotateY(90deg) translateZ(-13px) translateY(8px) translateX(-20px)";
+            orange2.style.transform = "rotateX(90deg) translateZ(-52px) translateY(14px)";white2.style.background = "#292929";
+            orange2.style.background = "#292929";
+            document.querySelector(".box2 .side2").style.background = "black";
+
+        });
+        box2.addEventListener("mouseenter",e=>{
+            white2.style.transition = "1s";
+            orange2.style.transition = "1s";
+            white2.style.width = "30px";
+            orange2.style.height = "30px";
+            white2.style.transform= "rotateY(90deg) translateZ(-18px) translateY(6px) translateX(-10px)";
+            orange2.style.transform = "rotateX(90deg) translateZ(-46px) translateY(7px) translate(-2px)";
+            white2.style.background = "#e35f00";
+            orange2.style.background = "#e35f00"
+            document.querySelector(".box2 .side2").style.background = "orange";
+            document.querySelector(".box2 .side2").style.transition = "1s";
+        });
+
+
+        ///Box3
+        box3.addEventListener("mouseleave",e=>{
+            box3.style.transition = "1s";
+            white3.style.width = "15px";
+            orange3.style.height = "15px";
+            white3.style.transform = "rotateY(90deg) translateZ(-13px) translateY(8px) translateX(-20px)";
+            orange3.style.transform = "rotateX(90deg) translateZ(-51px) translateY(12px)";
+            white3.style.background = "#292929";
+            orange3.style.background = "#292929";
+            document.querySelector(".box3 .side2").style.background = "black";
+        });
+        box3.addEventListener("mouseenter",e=>{
+            white3.style.transition = "1s";
+            orange3.style.transition = "1s";
+            white3.style.width = "30px";
+            orange3.style.height = "30px";
+            white3.style.transform = "rotateY(90deg) translateZ(-20px) translateY(6px) translateX(-10px)";
+            orange3.style.transform = "rotateX(90deg) translateZ(-45px) translateY(6px)";
+
+           white3.style.background = "#e35f00";
+           orange3.style.background = "#e35f00";
+           document.querySelector(".box3 .side2").style.background = "orange";
+           document.querySelector(".box3 .side2").style.transition = "1s";
+
+        });
+
+
+        //Box4
+        box4.addEventListener("mouseleave",e=>{
+            box4.style.transition = "1s";
+            white4.style.width = "15px";
+            white4.style.transform = "rotateY(90deg) translateZ(-8px) translateX(-15px) translateY(1px)";
+            orange4.style.height="15px";
+            orange4.style.transform="rotateX(90deg) translateZ(-51px) translateY(13px)";
+            orange4.style.background = "#292929";
+            white4.style.background = "#292929";
+            document.querySelector(".box4 .side2").style.background = "black";
+
+        });
+        box4.addEventListener("mouseenter",e=>{
+            white4.style.transition = "1s";
+            white4.style.width = "30px";
+            white4.style.transform = "rotateY(90deg) translateZ(-15px) translateX(-6px) translateY(1px)";
+            orange4.style.height="30px";
+            orange4.style.transition="1s";
+           orange4.style.transform="rotateX(90deg) translateZ(-45px) translateX(-1px) translateY(6px)";
+           white4.style.background = "#e35f00";
+           orange4.style.background = "#e35f00";
+           document.querySelector(".box4 .side2").style.background = "orange";
+           document.querySelector(".box4 .side2").style.transition = "1s";
+        });
+
+        //Box5
+        box5.addEventListener("mouseleave",e=>{
+            box5.style.transition = "1s";
+            white5.style.width = "15px";
+            white5.style.transform = "rotateY(90deg) translateZ(-17px) translateX(-23px) translateY(11px)";
+            orange5.style.height = "15px";
+            orange5.style.transform = "rotateX(90deg) translateZ(-56px) translateY(17px) translateX(-4px)";
+            white5.style.background = "#292929";
+            orange5.style.background=
+            "#292929";
+            document.querySelector(".box5 .side2").style.background="black";
+        });
+       box5.addEventListener("mouseenter",e=>{
+           white5.style.transition = "1s";
+           white5.style.width = "30px";
+           white5.style.transform = "rotateY(90deg) translateZ(-17px) translateX(-8px) translateY(3px)";
+           orange5.style.transition = "1s";
+           orange5.style.height = "30px";
+           orange5.style.transform = "rotateX(90deg) translateZ(-44px) translateY(5px)";
+           white5.style.background = "#e35f00";
+           orange5.style.background = "#e35f00";
+           document.querySelector(".box5 .side2").style.background = "orange";
+           document.querySelector(".box5 .side2").style.transition = "1s";
+           document.querySelector(".box5::after").style.height = "10px";
+           
+       });
+    </script>
+</body>
+</html>

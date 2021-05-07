@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sakthi</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="phone1">
+            <div class="screen">
+                <div class="fcam">
+                    <span class="cam1"></span><span class="cam2"></span>
+                </div>
+            </div>
+        </div>
+        <div class="phone2">
+            <div class="circle">
+                <div class="outcamera">
+                    <ul class="camera">
+                        <li class="cam1"></li>
+                        <li class="cam2"></li>
+                        <li class="cam3"></li>
+                        <li class="cam4"></li>
+                    </ul>
+                   
+                </div>
+                <div class="flash"></div>
+                <div class="logo">POCO</div>
+            </div>
+        </div>
+        <div class="phone3"></div>
+        <div class="phone4"></div>
+        <div class="phone5"></div>
+        <div class="phone6"></div>
+        <div class="phone7"></div>
+        <div class="phone8"></div>
+        <div class="phone9"></div>
+        <div class="phone10"></div>
+        <div class="phone11"></div>
+        <div class="phone12"></div>
+        <div class="phone13"></div>
+        <div class="phone14"></div>
+        <div class="phone15"></div>
+        <div class="phone16"></div>
+        <div class="phone17"></div>
+        <div class="phone18"></div>
+        <div class="phone19"></div>
+        <div class="phone20"></div>
+        <div class="phone21"></div>
+        <div class="volume1"></div>
+        <div class="volume2"></div>
+        <div class="volume3"></div>
+        <div class="volume4"></div>
+
+        <div class="volume5"></div>
+
+        
+        <div class="power1"></div>
+        <div class="power2"></div>
+
+        <div class="power3"></div>
+
+    </div>
+    <script>
+        var x = false;
+        document.querySelector(".phone1").addEventListener("click",e =>{
+            
+            if (x){
+                document.querySelector(".screen").style.background = "linear-gradient(to left, rgba(255,255,255,0.2),rgba(255,255,255,0.1))";
+                
+               x = false;
+
+        }
+        else{
+            document.querySelector(".screen").style.background = "url(home.jpg) no-repeat";
+            document.querySelector(".screen").style.backgroundSize = "100%";
+                document.querySelector(".screen").style.backgroundPosition = "center";
+            x = true;
+        }
+        console.log(x);
+        });
+    </script>
+</body>
+</html>

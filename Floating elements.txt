@@ -1,0 +1,24 @@
+When elements are floated, the elements are hidden by the regular flow of the HTML.
+
+Floating elements:
+syntax:
+float: right or left
+
+To define an element that it should not have anything 
+floated on its left:
+use:
+clear: left or right or both;
+
+To set position of an element which is also located in document flow:
+
+position: relative;
+top: <n>px;
+left: <n>px:
+the values define, from top and from left.
+
+To set position of an element which is independent of the document flow:
+
+position: absolute;
+top: <n>px;
+left: <n>px:
+the values define, from top and from left.

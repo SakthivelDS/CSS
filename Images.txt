@@ -1,0 +1,5 @@
+To display image: 
+
+<img src="<address>" width="" height="" alt=""> 
+Here the alt is alternate text for the image 
+while error loading.

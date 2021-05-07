@@ -1,0 +1,4 @@
+To refer the external style CSS we use: 
+<link rel="stylesheet" href="<name of the css file>"
+
+in the head tag

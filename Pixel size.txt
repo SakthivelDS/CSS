@@ -1,0 +1,8 @@
+Large devices: >1200 px
+medium devices: 952-1199 px
+small devices: <951px
+
+To say the browser not to zoom out in small devices
+to wrap the contents,use:
+
+<meta name="viewport" content="width= device-width, initial-scale=1">
